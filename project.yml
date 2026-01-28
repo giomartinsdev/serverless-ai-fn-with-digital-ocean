@@ -1,0 +1,9 @@
+packages:
+  - name: ai
+    functions:
+      - name: hf-inference
+        runtime: 'python:3.11'
+        web: true
+        limits:
+          timeout: 60000
+          memory: 256
